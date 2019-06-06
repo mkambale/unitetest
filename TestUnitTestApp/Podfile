@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '11.0'
+
+use_frameworks!
+
+target 'TestUnitTestApp' do
+    # Networking
+    pod 'Alamofire'
+    pod 'AlamofireObjectMapper'
+    pod 'AlamofireImage'
+
+    # UI
+    pod 'MBProgressHUD'
+end
+
