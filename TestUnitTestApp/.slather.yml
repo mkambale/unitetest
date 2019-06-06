@@ -1,10 +1,10 @@
 input_format: profdata
 coverage_service: cobertura_xml
 output_directory: slather-report
-scheme: TestUnitTestAppTests
+scheme: TestUnitTestApp
 workspace: TestUnitTestApp.xcworkspace
 xcodeproj: TestUnitTestApp.xcodeproj
-source_directory: ../TestUnitTestApp
+source_directory: ./TestUnitTestApp
 ignore:
-    - ../**/*/Xcode*
-    - ../core/*
+    - ./**/*/Xcode*
+    - ./core/*

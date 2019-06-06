@@ -1,10 +1,3 @@
 def coverage_rake
-  config = YAML.load_file('.slather.yml')
-  build_settings = `xcodebuild -workspace TestUnitTestApp.xcworkspace -scheme TestUnitTestApp -showBuildSettings`
-  if build_settings
-    derived_data_path = build_settings.match(/ OBJROOT = (.+)/)[1]
-    binary_file_prfix = "--binary-file \"#{derived_data_path}/CodeCoverage/Products/Testing-iphonesimulator"
-    
-    run_cmd "slather coverage TestUnitTestApp"
-  end
+  run_cmd "slather coverage -x --output-directory ./xml_report"
 end
