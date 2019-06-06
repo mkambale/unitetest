@@ -1,4 +1,4 @@
-def coverage_ios
+def coverage_rake
   config = YAML.load_file('.slather.yml')
   build_settings = `xcodebuild -workspace TestUnitTestApp.xcworkspace -scheme TestUnitTestApp -showBuildSettings`
   if build_settings
