@@ -1,3 +1,4 @@
 def coverage_rake
+  run_cmd "sleep 30"
   run_cmd "slather coverage -x --output-directory ./xml_report"
 end
