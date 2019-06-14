@@ -55,9 +55,9 @@ class DetailsTableViewController: UITableViewController {
         return cell
     }
     
-    func someFuncToTest(someVal:Bool) -> Bool {
-        return !someVal
-    }
+//    func someFuncToTest(someVal:Bool) -> Bool {
+//        return !someVal
+//    }
 
 
     /*
