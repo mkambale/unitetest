@@ -59,4 +59,25 @@ class DetailsTableViewController: UITableViewController {
         print("some text")
         return !someVal
     }
+    
+    func some1() {
+        //this is just temp
+        //calculate
+        let timestamp = NSDate().timeIntervalSince1970
+        
+        let days = (timestamp/(24*60*60))
+        
+        print("Days from 1970 : ",days)
+        
+        
+        let weeks = (timestamp/(24*60*60*7))
+        
+        print("Weeks from 1970 : ",weeks)
+        
+        
+        let months = (timestamp/(24*60*60*7*4))
+        
+        print("Months from 1970 : ",months)
+
+    }
 }
