@@ -19,19 +19,4 @@ class DetailsTableViewControllerTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testsomeFuncToTestPass() {
-        let viewC = DetailsTableViewController()
-
-        let retValue = viewC.someFuncToTest(someVal: true)
-
-        XCTAssert(retValue == false, "testsomeFuncToTestPass")
-    }
-
-    func testsomeFuncToTestFail() {
-        let viewC = DetailsTableViewController()
-
-        let retValue = viewC.someFuncToTest(someVal: false)
-
-        XCTAssert(retValue == true, "testsomeFuncToTestFail")
-    }
 }
