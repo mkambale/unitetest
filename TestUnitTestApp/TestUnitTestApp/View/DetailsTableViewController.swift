@@ -57,64 +57,6 @@ class DetailsTableViewController: UITableViewController {
     
 
     
-    func getDateFormatted(dateString: String?, format: String) -> String? {
-        
-        guard let dtString = dateString else {
-            return nil
-        }
-        
-
-        
-        return nil
-    }
-    
-    func acceptDateFormatString(dateString: String?, dateFormat: String, stringFormat: String, noToLocalTimeZone:Bool = false) -> String? {
-        
-        guard let dtString = dateString else {
-            return nil
-        }
-        if noToLocalTimeZone {
-
-        } else {
-
-                return nil
-
-        }
-        
-        return nil
-    }
-
-    func getMonthFrom(_ dateString: String?) -> String? {
-        
-        guard let dtString = dateString else {
-            return nil
-        }
-        
- 
-        
-        return nil
-    }
-    
-    func getDayFrom(_ dateString: String?) -> String? {
-        
-        guard let dtString = dateString else {
-            return nil
-        }
-        
-
-        
-        return nil
-    }
-    
-    func getYearFrom(_ dateString: String?) -> String? {
-        
-        guard let dtString = dateString else {
-            return nil
-        }
-
-        return nil
-    }
-    
     func someFuncToTest(someVal:Bool) -> Bool {
         print("some text")
         return !someVal
