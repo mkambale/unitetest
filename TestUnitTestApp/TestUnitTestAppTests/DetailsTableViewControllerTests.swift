@@ -35,12 +35,12 @@ class DetailsTableViewControllerTests: XCTestCase {
         
         XCTAssert(retValue == true, "testsomeFuncToTestFail")
     }
-    
+    /*
     func testsome1() {
         let viewC = DetailsTableViewController()
         
         viewC.some1()
     }
 
-
+*/
 }
